@@ -1,0 +1,331 @@
+.movie-item-details-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.movie-item-details-top-section {
+  background-size: 100% 100%;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-details-top-section {
+    min-height: 90vh;
+  }
+}
+
+.movie-basic-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 80%;
+  margin: auto;
+  max-width: 1110px;
+  min-height: 300px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-basic-details-container {
+    min-height: 400px;
+  }
+}
+
+.movie-item-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 8px #888888;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-title {
+    font-size: 64px;
+    line-height: 62px;
+    margin-bottom: 20px;
+  }
+}
+
+.random-movie-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #888888;
+}
+
+@media screen and (min-width: 768px) {
+  .random-movie-desc {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+.random-movie-play-button {
+  width: 76px;
+  height: 32px;
+  background: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 4px;
+  color: #171f46;
+  outline: none;
+  border: none;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+@media screen and (min-width: 768px) {
+  .random-movie-play-button {
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+  }
+}
+
+.movie-basic-details-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.movie-basic-details-list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.certification-container {
+  border: 1px solid #ffffff;
+  width: 50px;
+  text-align: center;
+}
+
+.movie-item-overview {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.movie-item-play-btn {
+  width: 76px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #171f46;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-play-btn {
+    height: 40px;
+  }
+}
+
+.movie-item-shade-container {
+  min-height: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #131313 92.82%,
+    #131313 98.68%,
+    #131313 108.61%
+  );
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-shade-container {
+    min-height: 100px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #131313 92.82%,
+      #131313 98.68%,
+      #131313 108.61%
+    );
+  }
+}
+
+.movie-item-mid-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  max-width: 1110px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-mid-container {
+    margin-bottom: 55px;
+  }
+}
+
+.details-each-container {
+  min-width: 95px;
+  padding-right: 10px;
+  flex: 1;
+}
+
+.movie-item-mid-container-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #64748b;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-mid-container-title {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #94a3b8;
+  }
+}
+
+.movie-item-mid-container-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.movie-item-mid-container-list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item-mid-container-list-item {
+    font-size: 16px;
+  }
+}
+
+.similar-movies-container {
+  width: 80%;
+  margin: auto;
+  max-width: 1110px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movies-container {
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+}
+
+.similar-movies-container-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movies-container-title {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 25px;
+  }
+}
+
+.similar-movies-items-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-item-failure-view-page-container {
+  min-height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.failure-view-page-image {
+  width: 100%;
+  max-width: 250px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-page-image {
+    max-width: 400px;
+  }
+}
+
+.failure-view-page-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-page-msg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.failure-view-page-try-again-btn-container {
+  text-align: center;
+}
+
+.failure-view-page-try-again-btn {
+  width: 107px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-page-try-again-btn {
+    width: 140px;
+    height: 50px;
+  }
+}

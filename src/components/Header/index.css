@@ -1,0 +1,252 @@
+.navbar-container {
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (min-height: 768px) {
+  .navbar-container {
+    max-height: 105px;
+  }
+}
+
+.navbar-sub-container {
+  width: 80%;
+  margin: auto;
+  max-width: 1110px;
+}
+
+.navbar-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-website-logo {
+  height: 27px;
+  width: 100px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .header-website-logo {
+    height: 39px;
+    width: 135px;
+  }
+}
+
+.header-search-menu-icons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.header-search-menu-icons-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.go-search-icon {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 4px;
+}
+
+.header-menu-icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu-icon-button {
+    display: none;
+  }
+}
+
+.menu-open-icon {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.navbar-route-tabs-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-route-tabs-container {
+    display: none;
+  }
+}
+
+.navbar-route-list-container {
+  width: 70%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-route-list-tab-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-close-icon-button {
+  width: 30%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: end;
+}
+
+.navbar-close-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.search-input-container {
+  width: 80%;
+  height: 28px;
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    width: 264px;
+    height: 40px;
+    border-radius: 5px;
+  }
+}
+
+.search-input-bar {
+  width: 80%;
+  background-color: transparent;
+  color: #babdc2;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-bar {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 15px;
+  }
+}
+
+.search-page-search-icon-btn {
+  width: 20%;
+  background: #2c2b2b;
+  border-radius: 0px 3px 3px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-page-go-search-icon {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-page-go-search-icon {
+    font-size: 16px;
+  }
+}
+
+.navbar-main-container-img-tabs {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.navbar-main-container-tabs-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-main-container-tabs-container {
+    display: none;
+  }
+}
+
+.navbar-main-container-tab {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar-main-container-tab {
+    font-size: 18px;
+    margin-right: 55px;
+  }
+}
+
+.active {
+  font-weight: 700;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header-profile-icon-container {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-profile-icon-container {
+    display: none;
+  }
+}
+
+.profile-image {
+  height: 48px;
+  width: 48px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+}

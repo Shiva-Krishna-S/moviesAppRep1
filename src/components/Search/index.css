@@ -1,0 +1,235 @@
+.search-page-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.search-page-content-container {
+  min-height: 87vh;
+  width: 80%;
+  max-width: 1110px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .search-page-content-container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+.search-page-content-top-container {
+  flex-grow: 1;
+}
+
+.searched-movies-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searched-movie-item {
+  width: 30%;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .searched-movie-item {
+    width: 23%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+.searched-movie-image {
+  height: 100%;
+  width: 100%;
+  max-height: 170px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .searched-movie-image {
+    border-radius: 8px;
+  }
+}
+
+.no-movies-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.no-movies-found-image {
+  width: 80%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-movies-found-image {
+    max-width: 450px;
+  }
+}
+
+.no-movies-found-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .no-movies-found-msg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.search-page-failure-view-page-container {
+  min-height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.failure-view-page-image {
+  width: 100%;
+  max-width: 250px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-page-image {
+    max-width: 400px;
+  }
+}
+
+.failure-view-page-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-page-msg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.failure-view-page-try-again-btn-container {
+  text-align: center;
+}
+
+.search-failure-view-page-try-again-btn {
+  cursor: pointer;
+  width: 107px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .search-failure-view-page-try-again-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+@media screen and (min-width: 768px) {
+  .pagination-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: -40px;
+  }
+}
+
+.arrow-button {
+  background: #131313;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  padding-left: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-button {
+    height: 32px;
+    width: 32px;
+    padding-right: 5px;
+  }
+}
+
+.arrow-icon {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-icon {
+    font-size: 24px;
+  }
+}
+
+.page-number-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #cbd5e1;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-number-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #cbd5e1;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

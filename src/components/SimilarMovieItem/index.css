@@ -1,0 +1,40 @@
+.similar-movie-item {
+  width: 30%;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movie-item {
+    width: 23%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+.similar-movie-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movie-button {
+    border-radius: 8px;
+  }
+}
+
+.similar-movie-image {
+  width: 100%;
+  max-height: 170px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movie-image {
+    border-radius: 8px;
+  }
+}
